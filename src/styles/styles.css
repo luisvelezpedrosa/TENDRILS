@@ -24,9 +24,10 @@ header .logo {
 }
 
 header .logo img {
-  max-width: 500px; /* Reduced size by 75% (from 100px to 75px) */
+  max-width: 500px; /* Set the maximum width to 500px */
   height: auto; /* Maintain aspect ratio */
-  margin-bottom: 1rem;
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0.5rem auto; /* Reduce bottom margin to bring it closer to the next section */
   width: 100%; /* Make it responsive */
 }
 
@@ -35,7 +36,7 @@ main {
 }
 
 .audio-player {
-  margin: 2rem 0;
+  margin: 1rem 0; /* Reduce top margin to bring it closer to the header */
   text-align: center;
 }
 

@@ -23,9 +23,11 @@ header .logo {
 }
 
 header .logo img {
-  max-width: 200px; /* Adjust the size of the logo */
-  height: auto;
+  max-width: 75px; /* Reduced size by 75% (from 100px to 75px) */
+  height: auto; /* Maintain aspect ratio */
   margin-bottom: 1rem;
+  width: 100%; /* Make it responsive */
+  max-width: 75px; /* Ensure it doesn't exceed the reduced size */
 }
 
 main {

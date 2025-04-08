@@ -43,3 +43,10 @@ main {
   margin: 2rem 0;
   text-align: center;
 }
+
+.album-image img {
+  max-width: 150px; /* Set the maximum width to 150px */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 1rem auto; /* Center the image and add spacing */
+}

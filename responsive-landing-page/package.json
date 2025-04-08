@@ -1,0 +1,20 @@
+{
+  "name": "responsive-landing-page",
+  "version": "1.0.0",
+  "description": "A responsive landing page with an MP3 player and image placeholders.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "landing-page",
+    "responsive",
+    "mp3-player"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

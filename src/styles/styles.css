@@ -27,7 +27,6 @@ header .logo img {
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 1rem;
   width: 100%; /* Make it responsive */
-  max-width: 200px; /* Ensure it doesn't exceed the reduced size */
 }
 
 main {

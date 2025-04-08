@@ -1,0 +1,1 @@
+// This file is now empty or can be used for other JavaScript functionality in the future.

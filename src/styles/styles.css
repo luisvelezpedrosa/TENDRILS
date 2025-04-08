@@ -31,9 +31,9 @@ header .logo img {
   width: 100%; /* Make it responsive */
 }
 
-main {
-  padding: 2rem;
-}
+/*main {
+/*  padding: 2rem;
+/*}
 
 .audio-player {
   margin: 1rem 0; /* Reduce top margin to bring it closer to the header */

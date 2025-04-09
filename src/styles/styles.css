@@ -15,7 +15,6 @@ header {
   text-align: center;
 }
 
-
 header .logo {
   display: flex;
   flex-direction: column;
@@ -55,4 +54,37 @@ main {
 .language-menu {
   margin-top: 1rem;
   text-align: center;
+}
+
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-container a {
+  display: block;
+  width: calc(25% - 10px); /* Adjust width for responsiveness */
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+gallery-container a:hover {
+  transform: scale(1.05);
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

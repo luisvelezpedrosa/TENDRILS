@@ -51,3 +51,8 @@ main {
   display: block; /* Ensure the image is treated as a block element */
   margin: 1rem auto; /* Center the image and add spacing */
 }
+
+.language-menu {
+  margin-top: 1rem;
+  text-align: center;
+}

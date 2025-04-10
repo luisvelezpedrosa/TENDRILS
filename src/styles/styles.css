@@ -103,7 +103,8 @@ main {
 }
 
 .gallery-container a:hover {
-    transform: scale(1.05);
+    transform: scale(1.5); /* zoom effect on hover */
+    z-index: 1; /* Bring the hovered image to the front */
 }
 
 .gallery-container img {

@@ -92,17 +92,17 @@ main {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between icons */
+    gap: 8px; /* Reduce space between icons */
     margin-top: 20px;
 }
 
 .social-icons a img {
-    width: 128px;
-    height: 128px;
+    width: 76.8px; /* 40% smaller than 128px */
+    height: 76.8px; /* Maintain aspect ratio */
     object-fit: contain;
     transition: transform 0.3s ease;
 }
 
-.social-icons a img:hover {
+social-icons a img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }

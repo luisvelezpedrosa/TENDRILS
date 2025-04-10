@@ -97,7 +97,7 @@ main {
 }
 
 .social-icons a img {
-    width: 76.8px; /* 40% smaller than 128px */
+    width: 76.8px; /* Uniform size for all icons */
     height: 76.8px; /* Maintain aspect ratio */
     object-fit: contain;
     transition: transform 0.3s ease;

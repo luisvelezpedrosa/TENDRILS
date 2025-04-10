@@ -97,12 +97,35 @@ main {
 }
 
 .social-icons a img {
-    width: 76.8px; /* Uniform size for all icons */
-    height: 76.8px; /* Maintain aspect ratio */
+    width: 76.8px; /* Default size for larger screens */
+    height: 76.8px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
 
-social-icons a img:hover {
+.social-icons a img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .social-icons a img {
+        width: 60px; /* Smaller size for tablets and phones */
+        height: 60px;
+    }
+
+    .social-icons {
+        gap: 6px; /* Reduce spacing between icons */
+    }
+}
+
+@media (max-width: 480px) {
+    .social-icons a img {
+        width: 50px; /* Even smaller size for very small screens */
+        height: 50px;
+    }
+
+    .social-icons {
+        gap: 4px; /* Further reduce spacing between icons */
+    }
 }

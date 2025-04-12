@@ -133,6 +133,17 @@ main {
     transform: scale(1.1); /* zoom effect on hover */
 }
 
+a.email {
+    text-decoration: none;
+    color: #fff; /* Change to white for better visibility */
+    font-size: 1.2rem; /* Increase font size */
+    margin-top: 20px;
+    display: block; /* Make it a block element for better spacing */
+}
+
+a.email:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {

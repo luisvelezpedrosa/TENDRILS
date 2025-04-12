@@ -161,3 +161,56 @@ main {
         gap: 4px; /* Further reduce spacing between icons */
     }
 }
+
+
+/* Carousel Styles */
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible without cropping */
+    flex-shrink: 0; /* Prevent shrinking */
+    background-color: #000; /* Optional: Add a background color for empty space */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Prevent interaction when hidden */
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+/* Show buttons on hover */
+.carousel:hover .carousel-button {
+    opacity: 1; /* Make buttons visible */
+    pointer-events: auto; /* Enable interaction */
+}

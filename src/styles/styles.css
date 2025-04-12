@@ -214,3 +214,11 @@ main {
     opacity: 1; /* Make buttons visible */
     pointer-events: auto; /* Enable interaction */
 }
+
+/* Ensure carousel arrows are always visible on mobile devices */
+@media (max-width: 768px) {
+    .carousel-button {
+        opacity: 1; /* Make buttons always visible */
+        pointer-events: auto; /* Enable interaction */
+    }
+}

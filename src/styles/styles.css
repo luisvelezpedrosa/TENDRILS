@@ -133,11 +133,6 @@ main {
     transform: scale(1.1); /* zoom effect on hover */
 }
 
-.social-icons a[href*="bandcamp"] img,
-.social-icons a[href*="mailto"] img {
-    width: 71.25px; /* 5% smaller than 75px */
-    height: 71.25px; /* Maintain aspect ratio */
-}
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
